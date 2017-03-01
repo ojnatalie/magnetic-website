@@ -1,0 +1,131 @@
+.c-leftside {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    height: 100vh;
+    min-width: 300px;
+
+    background-color: #fff;
+
+    flex: 1;
+}
+
+.c-leftside__h1 {
+    margin: 90px 0;
+
+    font-size: 3em;
+    font-weight: 400;
+
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.c-nav {
+    padding-left: 6em;
+}
+.c-nav__link {
+    font-size: 1.4em;
+    font-weight: 400;
+    line-height: 3.5em;
+
+    letter-spacing: 2px;
+}
+
+.c-nav__link:hover {
+    border-bottom: solid 1px #454545;
+}
+
+.c-bubble {
+    display: none;
+}
+
+.speech {
+    position: relative;
+
+    width: 60px;
+    height: 25px;
+
+    line-height: 25px;
+
+    text-align: center;
+
+    color: #fff;
+    background-color: #454545;
+}
+
+.speech:before {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+
+    width: 0;
+    height: 0;
+
+    content: " ";
+
+    border: 5px solid;
+    border-color: #454545 transparent transparent #454545;
+}
+
+.js-bubble {
+    position: absolute;
+    left: 50px;
+
+    display: block;
+    margin-top: 60px;
+}
+
+.c-leftside__si {
+    display: flex;
+    max-width: 200px;
+    margin: auto;
+    margin-top: 100px;
+
+    align-items: center;
+    justify-content: space-around;
+}
+
+.si {
+    display: flex;
+    width: 30px;
+    height: 30px;
+
+    font-family: "Socialico";
+    font-size: 2em;
+
+    cursor: pointer;
+
+    color: #c7c7c7;
+    border: solid 3px #c7c7c7;
+
+    align-items: center;
+    justify-content: center
+    ;
+}
+
+.si:hover {
+    color: #fff;
+    background-color: #c7c7c7;
+}
+
+.si--facebook:hover {
+    border: #516faf solid 3px;
+    background-color: #516faf;
+}
+
+.c-copyright {
+    display: flex;
+    padding-top: 3em;
+    margin-left: -50px;
+
+    line-height: 1.5em;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright__a {
+    font-weight: 700;
+}
