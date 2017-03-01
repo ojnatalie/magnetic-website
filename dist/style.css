@@ -447,3 +447,50 @@ figure.c-grid__figure:hover h2,
 figure.c-grid__figure:hover p {
     transform: translate3d(0, 0, 0);
 }
+
+@media (max-width: 400px) {
+  .c-leftside {
+    min-width: 80px; }
+  .c-rightside {
+    margin-left: 80px; }
+  .c-nav {
+    padding-left: 1em; }
+  .c-leftside__h1 {
+    margin: 20px 0;
+    font-size: 1.1em;
+    font-weight: 700; }
+  .c-nav__ul {
+    font-size: .9em; }
+  .c-nav__ul li {
+    margin: 1em 0; }
+  .c-nav__link {
+    font-size: 1.2em; }
+  .c-leftside__si {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 200px;
+    margin: auto;
+    margin-top: 50px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .si {
+    width: 50px;
+    height: 50px;
+    margin: .5em 0; }
+  .speech {
+    top: 40px;
+    left: 20px;
+    width: 60px;
+    height: 25px; }
+  .js-bubble {
+    position: absolute;
+    top: 190px;
+    left: -10px;
+    display: block;
+    margin-top: 60px; } }
