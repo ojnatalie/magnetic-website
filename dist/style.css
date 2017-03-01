@@ -448,7 +448,7 @@ figure.c-grid__figure:hover p {
     transform: translate3d(0, 0, 0);
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
     .c-leftside {
         min-width: 80px;
     }
