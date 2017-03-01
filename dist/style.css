@@ -494,20 +494,8 @@ figure.c-grid__figure:hover p {
         height: 50px;
         margin: .5em 0;
     }
-    .speech {
-        top: 40px;
-        left: 20px;
-
-        width: 60px;
-        height: 25px;
-    }
-    .js-bubble {
-        position: absolute;
-        top: 190px;
-        left: -10px;
-
-        display: block;
-        margin-top: 60px;
+    .c-bubble {
+        display: none;
     }
     .c-hamburger__svg {
         display: flex !important;
